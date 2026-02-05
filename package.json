@@ -1,26 +1,30 @@
 {
-  "name": "mastering-cruds",
+  "name": "aulas-crudcomqualidade.io",
   "version": "1.0.0",
-  "description": "Criando um **CRUD com Qualidade.",
+  "description": "Projeto criando um CRUD com qualidade!",
   "main": "index.js",
   "scripts": {
-    "start": "node ./core/crud.js",
-    "dev": "nodemon ./core/crud.js",
+    "start:crud": "npx ts-node ./core/crud.ts",
+    "dev:crud": "nodemon --ext ts,tsx --exec 'npm run start:crud'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nascimentorm/mastering-cruds.git"
+    "url": "git+https://github.com/devsoutinho/aulas-crudcomqualidade.io.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/nascimentorm/mastering-cruds/issues"
+    "url": "https://github.com/devsoutinho/aulas-crudcomqualidade.io/issues"
   },
-  "homepage": "https://github.com/nascimentorm/mastering-cruds#readme",
+  "homepage": "https://github.com/devsoutinho/aulas-crudcomqualidade.io#readme",
   "devDependencies": {
-    "nodemon": "^3.1.11"
+    "@types/node": "^18.19.130",
+    "nodemon": "^2.0.21",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "typescript": "^5.0.2"
   }
 }
