@@ -1,0 +1,26 @@
+{
+  "name": "mastering-cruds",
+  "version": "1.0.0",
+  "description": "Criando um **CRUD com Qualidade.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./core/crud.js",
+    "dev": "nodemon ./core/crud.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nascimentorm/mastering-cruds.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nascimentorm/mastering-cruds/issues"
+  },
+  "homepage": "https://github.com/nascimentorm/mastering-cruds#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
