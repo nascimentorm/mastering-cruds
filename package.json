@@ -21,10 +21,12 @@
   "homepage": "https://github.com/devsoutinho/aulas-crudcomqualidade.io#readme",
   "devDependencies": {
     "@types/node": "^18.19.130",
+    "@types/uuid": "^10.0.0",
     "nodemon": "^2.0.21",
     "ts-node": "^10.9.2"
   },
   "dependencies": {
-    "typescript": "^5.0.2"
+    "typescript": "^5.0.2",
+    "uuid": "^13.0.0"
   }
 }
